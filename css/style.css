@@ -11,6 +11,14 @@ body {
     font-size: 11px;
 }
 
+.btn_generic:hover{
+    background-color :#006aff;
+    border: 1px solid #006aff;
+    color: white;
+    font-size: 11px;
+}
+
+
 /*HEADER*/
 /*top nav*/
 .logo img {
@@ -60,6 +68,33 @@ header .header_nav li a {
 .banner {
     background-image: url('../img/ms-jumbo.jpg');
     background-size: cover;
-    /*da cancellare*/
-    height: 500px;
+    padding: 40px 0px 40px 0px;
+}
+
+h1 {
+    padding-right: 90px;
+}
+
+.text_banner h1 {
+    font-size: 40px;   
+    color: white;
+}
+
+.text_banner p { 
+    color: white;
+}
+
+.banner .text_wrapper{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.text_wrapper h3 {
+    font-size: 22px;   
+}
+
+.text_wrapper p {
+    font-size: 22px;   
+    color: #2286fd;
 }

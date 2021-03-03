@@ -54,3 +54,12 @@ header .header_nav li a {
     text-decoration: none;
     font-size: 13px;
 }
+
+/*MAIN*/
+/*banner*/
+.banner {
+    background-image: url('../img/ms-jumbo.jpg');
+    background-size: cover;
+    /*da cancellare*/
+    height: 500px;
+}

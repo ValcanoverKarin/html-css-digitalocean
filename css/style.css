@@ -4,10 +4,6 @@ body {
     font-family: 'Inter';
 }
 
-img {
-    width: 100%;
-}
-
 .btn_generic{
     background-color: white;
     border: 1px solid #006aff;
@@ -19,20 +15,34 @@ img {
 /*top nav*/
 .logo img {
     padding-top: 5px;
+    height: 30px;
 }
 
 .header_nav {
     padding: 15px 0;
 }
 
+.header_nav nav {
+    text-align: right;
+}
+
 header .header_nav .burger {
-    font-size: 13px;
+    font-size: 17px;
+    color: #2286fd;
+    margin-top: 5px;
 }
 
 header .header_nav ul {
     margin: 0;
     padding: 0;
-    
+}
+
+.header_nav .menu-left{
+    padding-top: 7px;
+}
+
+.header_nav .menu-right{
+    padding-top: 3px;
 }
 
 header .header_nav li {
@@ -43,15 +53,4 @@ header .header_nav li a {
     color: #031c4e;
     text-decoration: none;
     font-size: 13px;
-    padding-left: 15px;
-}
-
-header .text-left,
-header .text-right {
-    list-style: none;
-    line-height: 33px;
-}
-
-header .btn_generic {
-    margin-left: 9px;
 }

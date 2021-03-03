@@ -8,11 +8,21 @@ img {
     width: 100%;
 }
 
+.btn_generic{
+    background-color: white;
+    border: 1px solid #006aff;
+    color: #006aff;
+    font-size: 11px;
+}
+
 /*HEADER*/
 /*top nav*/
+.logo img {
+    padding-top: 5px;
+}
+
 .header_nav {
-    background-color: white;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 header .header_nav .burger {
@@ -22,6 +32,7 @@ header .header_nav .burger {
 header .header_nav ul {
     margin: 0;
     padding: 0;
+    
 }
 
 header .header_nav li {
@@ -29,12 +40,18 @@ header .header_nav li {
 }
 
 header .header_nav li a {
-    color: black;
+    color: #031c4e;
     text-decoration: none;
     font-size: 13px;
     padding-left: 15px;
 }
 
-.btn_link {
-    display: inline-block;
+header .text-left,
+header .text-right {
+    list-style: none;
+    line-height: 33px;
+}
+
+header .btn_generic {
+    margin-left: 9px;
 }

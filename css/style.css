@@ -114,6 +114,7 @@ h1 {
     font-size: 22px;   
     color: #2286fd;
 }
+
 .icon-google button{
     margin-top: 10px;
 }
@@ -151,7 +152,7 @@ h1 {
     margin-bottom: 20px;
 } 
 
-/*sezione configuration process*/
+/*sezione configuration process/ WHITE*/
 .white_section {
     padding: 30px 0px 30px 0px;
 }
@@ -200,4 +201,63 @@ h1 {
 .grey_section {
     background-color: #f3f5f9;
     padding: 30px 0px 30px 0px;
+}
+
+/*sezione designed developer/ GREY*/
+.designed_developer img {
+    width: 50%;
+}
+
+.designed_developer .image {
+    position: relative;
+}
+
+.designed_developer .angle_left {
+    position: absolute;
+    color: #707c97;
+    font-size: 35px;
+    top: 50%;
+    left: 21%;
+    transform: translate(0, -50%);
+}
+
+.angle_left:hover {
+    position: absolute;
+    color: #031c4e;
+    font-size: 35px;
+    top: 50%;
+    left: 21%;
+    transform: translate(0, -50%);
+}
+
+.designed_developer .angle_right {
+    position: absolute;
+    color: #031c4e;
+    font-size: 35px;
+    top: 50%;
+    left: 77%;
+    transform: translate(0, -50%);
+}
+
+.text_bottom p{
+    font-size: 11px;
+    padding-top: 15px;
+    color: #031c4e;
+    margin: 0;
+}
+
+.circle ul {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0;
+}
+
+.circle li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.circle a{
+    color: #006aff;
+    font-size: 10px;
 }

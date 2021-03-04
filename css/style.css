@@ -371,3 +371,16 @@ h1 {
 }
 
 /*FOOTER*/
+.section_darkblue p {
+    color: #a2a9b9;
+    font-size: 12px;
+}
+
+.section_darkblue h5 {
+    color: white;
+}
+
+.section_darkblue img {
+    height: 40px;
+}
+

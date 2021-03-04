@@ -162,7 +162,7 @@ h1 {
 }
 
 .small-wrapper {
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -170,11 +170,34 @@ h1 {
     list-style-type: none;
 }
 
+.configuration_list li {
+    padding: 8px 0;
+}
+
 .configuration_list a {
     color: #707c97;
 }
 
-.small-wrapper p {
+.configuration_list {
+    border-left: 1px solid lightgray;
+    padding-left: 10px;   
+}
+
+.col_wrapper h5 {
+    color: #031c4e;
+}
+
+.col_wrapper p {
+    color: #707c97;
     font-size: 12px;
-    padding-bottom: 15px;
+    padding-bottom: 11px;
+}
+
+.col_wrapper img {
+    height: 28px;
+}
+
+.grey_section {
+    background-color: #f3f5f9;
+    padding: 30px 0px 30px 0px;
 }

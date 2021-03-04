@@ -36,6 +36,10 @@ h2 {
     padding: 30px 0px 30px 0px;
 }
 
+.blue_section h2{
+    color: white;
+}    
+
 /*HEADER*/
 /*top nav*/
 .logo img {
@@ -261,8 +265,6 @@ h1 {
 .circle li {
     display: inline-block;
     text-decoration: none;
-    display: inline-block;
-    text-decoration: none;
 }
 
 .circle a{
@@ -277,4 +279,24 @@ h1 {
 
 .section_features p {
     margin-bottom: 0;
+}
+
+
+.section_features .col_wrapper {
+    margin-bottom: 20px;
+}
+
+.box_list {
+    color: white;
+    font-size: 11px;
+}
+
+.regions_list {
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+.box_list .link a {
+    color: aqua;
+    font-size: 11px;
 }

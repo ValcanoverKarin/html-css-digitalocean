@@ -18,6 +18,10 @@ body {
     font-size: 11px;
 }
 
+h2 {
+    color: #031c4e;
+}
+
 
 /*HEADER*/
 /*top nav*/
@@ -146,3 +150,12 @@ h1 {
     font-size: 12px;
     margin-bottom: 20px;
 } 
+
+/*sezione configuration process*/
+.white_section {
+    padding: 30px 0px 30px 0px;
+}
+
+.white_section p {
+    color: #031c4e;
+}

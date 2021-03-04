@@ -354,5 +354,13 @@ h1 {
 
 .section_team img {
     width: 50%;
-   
+}
+
+.section_team p {
+    color: #707c97;
+    padding-top: 15px;
+}
+
+.section_team h6 {
+    color: #031c4e;
 }

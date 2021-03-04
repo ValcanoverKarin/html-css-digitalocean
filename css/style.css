@@ -246,13 +246,13 @@ h1 {
     margin: 0;
 }
 
-.circle ul {
-    display: inline-block;
-    text-decoration: none;
+.designed_developer ul {
     padding: 0;
 }
 
 .circle li {
+    display: inline-block;
+    text-decoration: none;
     display: inline-block;
     text-decoration: none;
 }
@@ -260,4 +260,13 @@ h1 {
 .circle a{
     color: #006aff;
     font-size: 10px;
+}
+
+/*sezione features/ WHITE*/
+.section_features h2 {
+    padding-bottom: 15px;
+}
+
+.section_features p {
+    margin-bottom: 0;
 }

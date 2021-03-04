@@ -33,7 +33,7 @@ h2 {
 
 .blue_section {
     background-image: linear-gradient(#0047c5, #00209b);
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px 50px 0px;
 }
 
 .blue_section h2{
@@ -173,7 +173,6 @@ h1 {
 } 
 
 /*sezione configuration process/ WHITE*/
-
 .section_intro p {
     color: #707c97;
     padding-bottom: 35px;
@@ -216,15 +215,15 @@ h1 {
 }
 
 /*sezione designed developer/ GREY*/
-.designed_developer img {
+.section_developer img {
     width: 50%;
 }
 
-.designed_developer .image {
+.section_developer .image {
     position: relative;
 }
 
-.designed_developer .angle_left {
+.section_developer .angle_left {
     position: absolute;
     color: #707c97;
     font-size: 35px;
@@ -242,7 +241,7 @@ h1 {
     transform: translate(0, -50%);
 }
 
-.designed_developer .angle_right {
+.section_developer .angle_right {
     position: absolute;
     color: #031c4e;
     font-size: 35px;
@@ -258,7 +257,7 @@ h1 {
     margin: 0;
 }
 
-.designed_developer ul {
+.section_developer ul {
     padding: 0;
 }
 
@@ -299,4 +298,61 @@ h1 {
 .box_list .link a {
     color: aqua;
     font-size: 11px;
+}
+
+/*sezione team/ GREY*/
+.section_team .text_wrapper{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 50px 15px 50px 15px;
+    margin: auto;
+}
+
+.section_team .text_wrapper {
+    width: 50%;
+}
+
+.section_team h2{
+    padding-bottom: 60px;
+}
+
+.section_team ul {
+    padding: 0;
+}
+
+.section_team .text_wrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section_team  .angle_left {
+    position: absolute;
+    color: #707c97;
+    font-size: 35px;
+    top: 50%;
+    left: 21%;
+    transform: translate(0, -50%);
+}
+
+.section_team  .angle_left:hover {
+    position: absolute;
+    color: #031c4e;
+    font-size: 35px;
+    top: 50%;
+    left: 21%;
+    transform: translate(0, -50%);
+}
+
+.section_team .angle_right {
+    position: absolute;
+    color: #031c4e;
+    font-size: 35px;
+    top: 50%;
+    left: 77%;
+    transform: translate(0, -50%);
+}
+
+.section_team img {
+    width: 50%;
+   
 }

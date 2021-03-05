@@ -398,3 +398,34 @@ h1 {
 .privacy {
     color: #506080;
 }
+
+
+
+.section_chat {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 25%;
+}
+
+.section_chat img {
+    background-color: #006aff;
+    padding: 5px 0px 5px 0;
+    border: 1px solid #006aff;
+    border-radius: 5px;
+}
+
+.img_shark img{
+    width: 100%;
+}
+
+.text_shark {
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.text_shark p {
+    font-size: 10px;
+    margin: 0;
+}

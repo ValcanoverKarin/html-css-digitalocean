@@ -399,11 +399,10 @@ h1 {
     color: #506080;
 }
 
-
-
+/*section chat*/
 .section_chat {
     position: fixed;
-    bottom: 40px;
+    bottom: 30px;
     right: 40px;
     width: 25%;
 }
